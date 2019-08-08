@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-08-07T02:12:06.981+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/stores/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="stores"
+        sling:resourceType="stores/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <carousel
+                    jcr:created="{Date}2019-07-29T02:42:20.821+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-31T02:34:39.428+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="stores/components/content/carousel"
+                    autoplay="false"
+                    carouselTitle="Carousel">
+                    <carousels jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;h1>&lt;b>Surface Laptop 2&lt;/b>&lt;/h1>&#xd;&#xa;&lt;p>Style and Speed&lt;/p>&#xd;&#xa;&lt;p>&lt;a title=&quot;Shop Now&quot; href=&quot;https://www.microsoft.com/en-us/p/surface-laptop-2/8XQJKK3DD91B?icid=homepage_hero2_SurfaceLaptopBTS_072819_Store_BTS20&quot; target=&quot;_blank&quot;>SHOP NOW&amp;gt;&lt;/a>&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/surfacebook-2.jpg"
+                            position="left"
+                            textIsRich="true"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;h1>&lt;b>Xbox Game Pass Ultimate&lt;/b>&lt;/h1>&#xd;&#xa;&lt;p>Get your first three months of membership for the price of one.&lt;/p>&#xd;&#xa;&lt;p>&lt;a title=&quot;Shop Now&quot; href=&quot;https://www.microsoft.com/en-us/p/xbox-game-pass/CFQ7TTC0KHS0?WT.mc_id=homepage_hero4_XGPUforSGS_071919&quot; target=&quot;_blank&quot;>SHOP NOW &amp;gt;&lt;/a>&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/xbox-game-pass.jpg"
+                            position="bottom"
+                            textIsRich="true"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;h1 style=&quot;color: black;&quot;>Save $59.99&lt;/h1>&#xd;&#xa;&lt;p style=&quot;color: black;&quot;>Get a second controller when you buy an Xbox One X Robot White console for only $499&lt;/p>&#xd;&#xa;&lt;p>&lt;a title=&quot;Shop Now&quot; href=&quot;https://www.microsoft.com/en-us/p/xbox-one-x-robot-white-1tb-console-free-second-controller-bundle/906csz602d0p?icid=homepage_hero3_XboxRobotWhite_072219&quot;>SHOP NOW &amp;gt;&lt;/a>&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/xbox-one.jpg"
+                            position="right"
+                            textIsRich="true"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;h1 style=&quot;color: black;&quot;>Xbox Super Game Sale&lt;/h1>&#xd;&#xa;&lt;p style=&quot;color: black;&quot;>Save up to 50% on Xbox and PC games&lt;/p>&#xd;&#xa;&lt;p>&lt;a title=&quot;Shop Xbox Games&quot; href=&quot;https://www.microsoft.com/en-us/store/collections/XSGS_071619.games/XBOX?icid=homepage_hero1_SGSXbox_071919_Store_XSGS20&amp;amp;amp;rtc=1&quot; target=&quot;_blank&quot;>SHOP XBOX GAMES &amp;gt;&lt;/a>        &lt;a title=&quot;Shop PC Games&quot; href=&quot;https://www.microsoft.com/en-us/store/deals/games/pc?icid=homepage_hero1_SGSPC_071919_Store_XSGS20&amp;amp;amp;rtc=2&quot; target=&quot;_blank&quot;>SHOP PC GAMES &amp;gt;&lt;/a>&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/xbox.jpg"
+                            position="left"
+                            textIsRich="true"/>
+                    </carousels>
+                </carousel>
+                <carouselgrid
+                    jcr:created="{Date}2019-07-31T03:33:18.881+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-07-31T06:14:10.170+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="stores/components/content/carouselgrid"
+                    autoplay="false"
+                    carouselTitle="Carousel Grid"
+                    delay="[5000]"
+                    itemsperslide="4">
+                    <carouselGrids jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/dell-xps-15-9570-laptop/8nnchkgrmm8w&quot;>SAVE UP TO $300.00&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/dell-xps-15-9570-laptop/8nnchkgrmm8w&quot;>Dell XPS 15 9570 Laptop&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/dell-xps-15-9570-laptop/8nnchkgrmm8w&quot;>From $1,649.00 Now $1,499.00&lt;/a>&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/dell_grid.jpg"
+                            position="bottom"
+                            textIsRich="true"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/surface-pro-6/8zcnc665slq5&quot;>Surface Pro 6&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/surface-pro-6/8zcnc665slq5&quot;>From&amp;nbsp;$899.00&lt;/a>&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/surfacebook_grid.png"
+                            position="left"
+                            textIsRich="true"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;p>PRE-ORDER&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/office-home-student-2019/cfq7ttc0k7c8&quot;>Madden NFL 20: Standard Edition;&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;i>Game&lt;/i>&lt;/p>&#xd;&#xa;&lt;p>Was $59.99 Now $53.99+&amp;nbsp;with&amp;nbsp;EA Access&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/maddenOnfl_grid.jpg"
+                            position="left"
+                            textIsRich="true"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/xbox-wireless-controller-phantom-white-special-edition/8qfcr4t88xw7&quot;>Xbox Wireless Controller – Phantom White Special Edition&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/xbox-wireless-controller-phantom-white-special-edition/8qfcr4t88xw7&quot;>&amp;nbsp;&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>$69.99&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/xbox_wireless_grid.jpg"
+                            position="left"
+                            textIsRich="true"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/xbox-one-s-1tb-console-fortnite-battle-royale-special-edition-bundle/8rxzv9jw0x36&quot;>Xbox One S 1TB Console – Fortnite Battle Royale Special Edition Bundle&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>From&amp;nbsp;$299.00&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/xbox_one_grid.jpg"
+                            position="left"
+                            textIsRich="true"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/xbox-design-lab/900wzdf9xjvg&quot;>Xbox Design Lab&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/xbox-design-lab/900wzdf9xjvg&quot;>From&amp;nbsp;$69.99&lt;/a>&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/xbox_design_grid.jpg"
+                            position="left"
+                            textIsRich="true"/>
+                        <item6
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/samsung-galaxy-buds-true-wireless-earbuds-black/906t11vfbg31&quot;>Samsung Galaxy Buds, True Wireless Earbuds, Black&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>$129.99&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/sgalaxy_buds_grid.jpg"
+                            position="left"
+                            textIsRich="true"/>
+                        <item7
+                            jcr:primaryType="nt:unstructured"
+                            cta="&lt;p>&lt;a href=&quot;https://www.microsoft.com/en-us/p/office-365-personal/cfq7ttc0k5bf&quot;>Office 365 Personal&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>$69.99 per year&lt;/p>&#xd;&#xa;&lt;p>$6.99 per month&lt;/p>&#xd;&#xa;"
+                            imagePath="/content/dam/stores/office_per_grid.jpg"
+                            position="left"
+                            textIsRich="true"/>
+                    </carouselGrids>
+                </carouselgrid>
+                <navigation
+                    jcr:created="{Date}2019-08-06T01:44:38.635+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-06T01:44:38.635+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="stores/components/content/navigation"/>
+                <products
+                    jcr:created="{Date}2019-08-06T01:45:06.550+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-07T02:12:06.963+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="stores/components/content/products"
+                    autoplay="false"
+                    carouselTitle="Carousel Grid"
+                    delay="5000"
+                    itemsPerSlide="4">
+                    <products jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            batteryLife="Up to 14.5 hours of local video playback1"
+                            color="white"
+                            connections="1 x full-size USB 3.0 3.5 mm headphone jack Mini DisplayPort 1 x Surface Connect port Compatible with Surface Dial off-screen interaction*"
+                            description="Stay productive in style with Surface Pro 6 + Type Cover"
+                            dimensions="12.13” x 8.79” x .57” (308.1 mm x 223.27 mm x 14.48 mm)"
+                            discount="0"
+                            display="Screen: 13.5” PixelSense™ Display Resolution: 2256 x 1504 (201 PPI) Aspect ratio: 3:2 3.4 million pixels Surface Pen* enabled Touch: 10 point multi-touch Corning® Gorilla® Glass 3"
+                            graphics="Intel® UHD Graphics 620 (i5) Intel® UHD Graphics 620 (i7)"
+                            id="1"
+                            imageUrl="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2x0K8?ver=f836&amp;q=90&amp;m=6&amp;h=270&amp;w=270&amp;b=%23FFFFFFFF&amp;f=jpg&amp;o=f&amp;aim=true"
+                            memory="8GB or 16GB RAM"
+                            name="Surface pro 2"
+                            noOfReviews="33"
+                            price="499"
+                            processor="Intel® Core™ 8th Gen i5 or i7"
+                            security="TPM 2.0 chip for enterprise security Enterprise-grade protection with Windows Hello face sign-in"
+                            software="Surface Laptop 2 Windows 10 Home Microsoft Office 365 30-day trial  Surface Laptop 2 for Business Windows 10 Pro 1 month trial for new Microsoft Office 365 customers"
+                            stars="3"
+                            storage5="Solid-state drive (SSD) options: 128GB, 256GB, 512GB, or 1TB"
+                            techSpec="Tech spec"
+                            title="Xbox One X Robot White 1TB Console - Free Second Controller Bundle">
+                            <reviews jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    progressFive="25%"
+                                    progressFour="9%"
+                                    progressOne="40%"
+                                    progressThree="9%"
+                                    progressTwo="14%"
+                                    rateFive="5"
+                                    rateFour="4"
+                                    rateOne="1"
+                                    rateThree="3"
+                                    rateTwo="2"
+                                    rating="3.4"
+                                    title="Reviews">
+                                    <comments jcr:primaryType="nt:unstructured">
+                                        <item0
+                                            jcr:primaryType="nt:unstructured"
+                                            comment="Hardware failure after 2 months."
+                                            date="{Date}2019-08-06T00:00:00.000+05:30"
+                                            description="Screen cracked when I was simply carrying it under my arm. No impact, no pressure or anything to explain why. They refuse to check it for a flaw and they want $700 to fix it. Too late for a refund. Couldn't be more disappointed."
+                                            name="Bryan"
+                                            profileIcon="B"
+                                            rate="5"/>
+                                    </comments>
+                                </item0>
+                            </reviews>
+                        </item0>
+                    </products>
+                </products>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

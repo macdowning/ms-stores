@@ -1,0 +1,4 @@
+#base=resources/bootstrap4
+css/bootstrap.css
+css/styles.css
+css/font-awesome.css

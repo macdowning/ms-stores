@@ -1,0 +1,64 @@
+<div class="container">
+    <h2>${properties.carouselTitle}</h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="${properties.delay}">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <div data-sly-use.carousels="stores.core.models.StoresModel" data-sly-unwrap>
+                <div data-sly-list.myitem="${carousels.storesBeanList}" data-sly-unwrap>
+                    <li data-target="#myCarousel" data-slide-to="${myitemList.index}"
+                        class="${myitemList.first? 'active':''}"></li>
+                </div>
+            </div>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div data-sly-use.carousels="stores.core.models.StoresModel" data-sly-unwrap>
+                <div data-sly-list.myitem="${carousels.storesBeanList}" data-sly-unwrap>
+                    <div class="carousel-item ${myitemList.first? 'active':''}">
+                        <picture>
+                            <source srcset="${myitem.imagePath}" media="(max-width:539px)">
+                            <source srcset="${myitem.imagePath}" media="(min-width:540px) and (max-width:767px)">
+                            <source srcset="${myitemimagePath}" media="(min-width:768px) and (max-width:1083px)">
+                            <source srcset="${myitem.imagePath}" media="(min-width:1084px) and (max-width:1399px)">
+                            <source srcset="${myitem.imagePath}" media="(min-width:1400px) and (max-width:1778px)">
+                            <source srcset="${myitem.imagePath}">
+                            <img src="${myitem.imagePath}" style="width:100%;">
+                        </picture>
+
+                        <div class="carousel-caption carousel-${myitem.position}">
+                            ${myitem.cta @ context='html'}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="carouselButtons">
+        <button id="playButton" type="button" class="btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-play"></span>
+        </button>
+        <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-pause"></span>
+        </button>
+    </div>
+</div>
+
+<script>
+    $('#playButton').click(function () {
+        $('#myCarousel').carousel('cycle');
+    });
+    $('#pauseButton').click(function () {
+        $('#myCarousel').carousel('pause');
+    });
+</script>

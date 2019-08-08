@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Products Dialog"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[core.wcm.components.commons.editor.dialog.childreneditor.v1,core.wcm.components.carousel.v1.editor]">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <products
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Products"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <layout
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"/>
+                                            <multi
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                composite="{Boolean}true"
+                                                eaem-show-on-collapse="EAEM.showProductName"
+                                                fieldLabel="Products">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                    name="./products">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <columns
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                            <items
+                                                                jcr:primaryType="nt:unstructured"
+                                                                sling:resourceType="granite/ui/components/coral/foundation/fieldset">
+                                                                <id
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Id"
+                                                                    fieldLabel="Id"
+                                                                    name="./id"/>
+                                                                <name
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Name"
+                                                                    fieldLabel="Name"
+                                                                    name="./name"/>
+                                                                <title
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Title"
+                                                                    fieldLabel="Title"
+                                                                    name="./title"/>
+                                                                <stars
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Stars"
+                                                                    fieldLabel="Stars"
+                                                                    name="./stars"/>
+                                                                <imageUrl
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                                    fieldDescription="Select Image"
+                                                                    fieldLabel="Image Url"
+                                                                    name="./imageUrl"
+                                                                    rootPath="/content"/>
+                                                                <numOfReviews
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="No of Reveiws"
+                                                                    fieldLabel="No of Reveiws"
+                                                                    name="./noOfReviews"/>
+                                                                <description
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Description"
+                                                                    fieldLabel="Description"
+                                                                    name="./description"/>
+                                                                <price
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Price"
+                                                                    fieldLabel="Price"
+                                                                    name="./price"/>
+                                                                <discount
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Discount"
+                                                                    fieldLabel="Discount"
+                                                                    name="./discount"/>
+                                                                <color
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Color"
+                                                                    fieldLabel="Color"
+                                                                    name="./color"/>
+                                                                <dimensions
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Dimensions"
+                                                                    fieldLabel="Dimensions"
+                                                                    name="./dimensions"/>
+                                                                <display
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Display"
+                                                                    fieldLabel="Display"
+                                                                    name="./display"/>
+                                                                <memory
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Memory"
+                                                                    fieldLabel="Memory"
+                                                                    name="./memory"/>
+                                                                <processor
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Processor"
+                                                                    fieldLabel="Processor"
+                                                                    name="./processor"/>
+                                                                <batterylife
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Battery Life"
+                                                                    fieldLabel="Battery Life"
+                                                                    name="./batteryLife"/>
+                                                                <graphics
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Graphics"
+                                                                    fieldLabel="Graphics"
+                                                                    name="./graphics"/>
+                                                                <storage5
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Storage5"
+                                                                    fieldLabel="Storage5"
+                                                                    name="./storage5"/>
+                                                                <connections
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Connections"
+                                                                    fieldLabel="Connections"
+                                                                    name="./connections"/>
+                                                                <security
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Security"
+                                                                    fieldLabel="Security"
+                                                                    name="./security"/>
+                                                                <software
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="Software"
+                                                                    fieldLabel="Software"
+                                                                    name="./software"/>
+                                                                <techspec
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldDescription="TechSpec"
+                                                                    fieldLabel="TechSpec"
+                                                                    name="./techSpec"/>
+                                                                <multi
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                                    composite="{Boolean}true"
+                                                                    fieldLabel="Reviews">
+                                                                    <field
+                                                                        jcr:primaryType="nt:unstructured"
+                                                                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                                        name="./reviews">
+                                                                        <items jcr:primaryType="nt:unstructured">
+                                                                            <columns
+                                                                                jcr:primaryType="nt:unstructured"
+                                                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                                                <items jcr:primaryType="nt:unstructured">
+                                                                                    <title
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Title"
+                                                                                        fieldLabel="Title"
+                                                                                        name="./title"/>
+                                                                                    <rating
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Rating"
+                                                                                        fieldLabel="Rating"
+                                                                                        name="./rating"/>
+                                                                                    <rateOne
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Rating One"
+                                                                                        fieldLabel="Rating One"
+                                                                                        name="./rateOne"/>
+                                                                                    <rateTwo
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Rating Two"
+                                                                                        fieldLabel="Rating Two"
+                                                                                        name="./rateTwo"/>
+                                                                                    <rateThree
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Rating Three"
+                                                                                        fieldLabel="Rating Three"
+                                                                                        name="./rateThree"/>
+                                                                                    <rateFour
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Rating Four"
+                                                                                        fieldLabel="Rating Four"
+                                                                                        name="./rateFour"/>
+                                                                                    <rateFive
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Five"
+                                                                                        fieldLabel="Five"
+                                                                                        name="./rateFive"/>
+                                                                                    <progressOne
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Progress One"
+                                                                                        fieldLabel="Progress One"
+                                                                                        name="./progressOne"/>
+                                                                                    <progressTwo
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Progress Two"
+                                                                                        fieldLabel="Progress Two"
+                                                                                        name="./progressTwo"/>
+                                                                                    <progressThree
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Progress Three"
+                                                                                        fieldLabel="Progress Three"
+                                                                                        name="./progressThree"/>
+                                                                                    <progressFour
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Progress Four"
+                                                                                        fieldLabel="Progress Four"
+                                                                                        name="./progressFour"/>
+                                                                                    <progressFive
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                        fieldDescription="Progress Five"
+                                                                                        fieldLabel="Progress Five"
+                                                                                        name="./progressFive"/>
+                                                                                    <multi
+                                                                                        jcr:primaryType="nt:unstructured"
+                                                                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                                                        composite="{Boolean}true"
+                                                                                        fieldLabel="Comments">
+                                                                                        <field
+                                                                                            jcr:primaryType="nt:unstructured"
+                                                                                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                                                            name="./comments">
+                                                                                            <items jcr:primaryType="nt:unstructured">
+                                                                                                <columns
+                                                                                                    jcr:primaryType="nt:unstructured"
+                                                                                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                                                                    <items jcr:primaryType="nt:unstructured">
+                                                                                                        <rate
+                                                                                                            jcr:primaryType="nt:unstructured"
+                                                                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                                            fieldDescription="Rate"
+                                                                                                            fieldLabel="Rate"
+                                                                                                            name="./rate"/>
+                                                                                                        <name
+                                                                                                            jcr:primaryType="nt:unstructured"
+                                                                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                                            fieldDescription="Name"
+                                                                                                            fieldLabel="Name"
+                                                                                                            name="./name"/>
+                                                                                                        <profileIcon
+                                                                                                            jcr:primaryType="nt:unstructured"
+                                                                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                                            fieldDescription="Profile Icon"
+                                                                                                            fieldLabel="Profile Icon"
+                                                                                                            name="./profileIcon"/>
+                                                                                                        <comment
+                                                                                                            jcr:primaryType="nt:unstructured"
+                                                                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                                            fieldDescription="Comment"
+                                                                                                            fieldLabel="Comment"
+                                                                                                            name="./comment"/>
+                                                                                                        <description
+                                                                                                            jcr:primaryType="nt:unstructured"
+                                                                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                                                            fieldDescription="Description"
+                                                                                                            fieldLabel="Description"
+                                                                                                            name="./description"/>
+                                                                                                        <date
+                                                                                                            jcr:primaryType="nt:unstructured"
+                                                                                                            sling:resourceType="granite/ui/components/coral/foundation/form/datepicker"
+                                                                                                            fieldDescription="Date"
+                                                                                                            fieldLabel="Date"
+                                                                                                            name="./date"/>
+                                                                                                    </items>
+                                                                                                </columns>
+                                                                                            </items>
+                                                                                        </field>
+                                                                                    </multi>
+                                                                                </items>
+                                                                            </columns>
+                                                                        </items>
+                                                                    </field>
+                                                                </multi>
+                                                            </items>
+                                                        </columns>
+                                                    </items>
+                                                </field>
+                                            </multi>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </products>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

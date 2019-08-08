@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <surfacebook-2.jpg/>
+    <xbox-game-pass.jpg/>
+    <xbox-one.jpg/>
+    <xbox.jpg/>
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="stores">
+        <folderThumbnail/>
+    </jcr:content>
+    <asset.jpg/>
+    <dell_grid.jpg/>
+    <maddenOnfl_grid.jpg/>
+    <surfacebook_grid.png/>
+    <office_per_grid.jpg/>
+    <sgalaxy_buds_grid.jpg/>
+    <xbox_design_grid.jpg/>
+    <xbox_one_grid.jpg/>
+    <xbox_wireless_grid.jpg/>
+</jcr:root>

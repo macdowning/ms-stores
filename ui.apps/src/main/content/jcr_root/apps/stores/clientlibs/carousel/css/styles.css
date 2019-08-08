@@ -1,0 +1,28 @@
+.carousel-right{
+    top: calc(30%);
+    width: 88%;
+    height: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    left: calc(18%);
+    right: 0;
+}
+
+.carousel-left{
+	top: calc(30%);
+    width: 88%;
+    height: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    left: calc(-40%);
+    right: 0;
+}
+.carousel-bottom{
+	top: calc(51%);
+    width: 88%;
+    height: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    left: calc(10%);
+    right: calc(10%);
+}
